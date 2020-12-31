@@ -1,0 +1,32 @@
+>git config --global user.name "Cesar Augusto"
+>git config --global user.email "cesar.leitejm@hotmail.com"
+>git config user.name
+>git config --list
+>mkdir git-course
+>cd git-course
+>OlaMundo.txt
+>:wq
+>git status
+>git add OlaMundo.txt
+>git commit -m "Add OlaMundo.txt"
+>git log author=""
+>git shortlog
+>git shortlog -sn
+>git log --graphy
+>git diff ( alterações no arquivo )
+>git diff --name-only ( somente arquivo que foi modificado )
+>git commit -am "Edit" ( arquivo que já existiu posso usar essa linha )
+>git checkout OlaMundo.txt ( volta para a versão anterior a edição )
+>git reset HEAD OlaMundo.txt ( Tira o arquivo do stage )
+>git reset --soft <chama git log e o cod no commit>( volta o arquivo mas deixa ele no stage, pronto para um novo commit )
+>git reset --mixed <chama git log e o cod no commit>( volta o arquivo e deixa ele antes do stage )
+>git reset --hard ( apaga tudo o que foi feito no commit )
+
+_________
+Comando criar chave SSH
+$ ssh-keygen -t ed25519 -C "cesar.leitejm@hotmail.com"
+
+
+_________
+
+
